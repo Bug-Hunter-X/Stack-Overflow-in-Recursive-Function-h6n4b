@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Solidity: stack overflow in recursive functions. The `foo` function recursively adds numbers.  When called with a large input, it exceeds the Ethereum Virtual Machine's (EVM) stack size limit, resulting in a runtime error.  The solution demonstrates how to solve this by using iteration instead of recursion.
