@@ -1,0 +1,1 @@
+function foo(uint256 x) public pure returns (uint256) {     uint256 result = 0;     for (uint256 i = 1; i <= x; i++) {         result += i;     }     return result; }
